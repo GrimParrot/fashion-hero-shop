@@ -48,7 +48,12 @@ export function ProductCard({ product, className }: ProductCardProps) {
             className="relative aspect-square overflow-hidden mb-3"
             style={{ background: productGradient(firstColor.hex) }}
           >
-            {badgeLabel && (
+            {product.recommended && (
+              <span className="absolute top-3 left-3 text-[10px] font-medium uppercase tracking-wider bg-amber-500 text-white px-2 py-1 z-10">
+                RECOMMENDED
+              </span>
+            )}
+            {!product.recommended && badgeLabel && (
               <span className="absolute top-3 left-3 text-[10px] font-medium uppercase tracking-wider bg-white/90 px-2 py-1 z-10">
                 {badgeLabel}
               </span>

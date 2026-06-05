@@ -29,6 +29,7 @@ export const products: Product[] = [
     materials: "Upper: Recycled polyester mesh. Midsole: Sugarcane-based EVA. Outsole: Natural rubber.",
     care: "Remove insoles and laces. Machine wash cold on gentle cycle. Air dry.",
     badge: "bestseller",
+    recommended: true,
     images: [
       "/images/products/product-1.jpg",
       "/images/products/product-10.jpg",
@@ -60,6 +61,7 @@ export const products: Product[] = [
     materials: "Upper: Merino wool blend. Midsole: Bio-based foam. Outsole: Recycled rubber.",
     care: "Spot clean with mild soap. Air dry away from direct heat.",
     badge: "new",
+    recommended: true,
     images: [
       "/images/products/product-3.jpg",
       "/images/products/product-7.jpg",
@@ -795,6 +797,7 @@ export const products: Product[] = [
     materials: "Upper: Recycled polyester mesh. Midsole: Sugarcane-based EVA. Outsole: Natural rubber.",
     care: "Remove insoles and laces. Machine wash cold on gentle cycle. Air dry.",
     badge: "bestseller",
+    recommended: true,
     images: [
       "/images/products/product-12.jpg",
       "/images/products/product-11.jpg",
@@ -827,6 +830,7 @@ export const products: Product[] = [
     materials: "Upper: Eucalyptus tree fiber. Midsole: Sugarcane EVA. Outsole: Natural rubber.",
     care: "Remove insoles. Machine wash cold on gentle cycle. Air dry.",
     badge: "bestseller",
+    recommended: true,
     images: [
       "/images/products/product-15.jpg",
       "/images/products/product-12.jpg",

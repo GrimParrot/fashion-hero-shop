@@ -172,6 +172,14 @@ export function ProductInfo({ product }: ProductInfoProps) {
         {selectedSize ? "ADD TO CART - " + product.price + " zl" : "SELECT A SIZE"}
       </button>
 
+      {/* Social proof */}
+      <div className="flex items-center gap-2 bg-orange-50 border border-orange-200 rounded-full px-4 py-2">
+        <span className="text-orange-500 text-base">🔥</span>
+        <span className="text-[12px] font-medium text-orange-700">
+          15 osób kupiło ten produkt w ostatnich 24h
+        </span>
+      </div>
+
       {/* Shipping info */}
       <div className="flex flex-col gap-2 pt-2 border-t border-border">
         <p className="text-xs text-warm-gray">

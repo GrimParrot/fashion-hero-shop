@@ -28,6 +28,7 @@ export interface Product {
   materials: string;
   care: string;
   badge?: "new" | "new-color" | "bestseller" | "sale";
+  recommended?: boolean;
   images: string[];
   type: ShoeType;
   material: ShoeMaterial;
